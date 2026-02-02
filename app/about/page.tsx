@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, Award, Heart, Target } from 'lucide-react'
 
 export const metadata = {
@@ -26,9 +27,14 @@ export default function AboutPage() {
       <section className="py-24 bg-cream">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-16 items-start">
-            {/* Photo placeholder */}
-            <div className="bg-charcoal/10 aspect-[3/4] flex items-center justify-center sticky top-24">
-              <p className="text-charcoal/40 text-sm">Photo coming soon</p>
+            {/* Photo */}
+            <div className="relative aspect-[3/4] sticky top-24">
+              <Image
+                src="/images/about-portrait.jpg"
+                alt="Samantha with her horse"
+                fill
+                className="object-cover"
+              />
             </div>
             
             {/* Bio */}

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Play, Mic, BookOpen, ArrowRight, Star } from 'lucide-react'
 
 export default function Home() {
@@ -6,7 +7,14 @@ export default function Home() {
     <main>
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center bg-charcoal">
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 to-charcoal" />
+        <Image
+          src="/images/hero-xc.jpg"
+          alt="Samantha Baer jumping cross-country"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/70 via-charcoal/50 to-charcoal/80" />
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <p className="text-gold font-serif text-lg mb-4 tracking-wider">
             Professional Event Rider & Educator
@@ -130,8 +138,13 @@ export default function Home() {
                 Read My Story <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
-            <div className="bg-slate/20 aspect-[4/5] flex items-center justify-center">
-              <p className="text-cream/40 text-sm">Photo coming soon</p>
+            <div className="relative aspect-[4/5]">
+              <Image
+                src="/images/about-portrait.jpg"
+                alt="Samantha with her horse"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
