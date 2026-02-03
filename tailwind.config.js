@@ -7,18 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Brand colors from logo
-        'brand': {
-          'charcoal': '#3D4450',
-          'slate': '#4A5568',
-          'gold': '#C9A962',
-          'cream': '#F5F5F0',
-          'white': '#FFFFFF',
-        }
+        charcoal: '#3D4450',
+        slate: '#4A5568',
+        gold: '#C9A962',
+        cream: '#F5F5F0',
       },
       fontFamily: {
-        'display': ['Cormorant Garamond', 'serif'],
-        'body': ['Inter', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       }
     },
   },
