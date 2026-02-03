@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section - Mobile-First, Readable */}
-      <section className="relative min-h-screen flex items-center bg-charcoal">
+      <section className="relative min-h-[85vh] md:min-h-screen flex items-center bg-charcoal">
         {/* Background Image with Heavy Overlay */}
         <div className="absolute inset-0">
           <Image
@@ -19,31 +19,31 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal via-charcoal/95 to-charcoal" />
         </div>
         
-        <div className="relative z-10 w-full max-w-4xl mx-auto px-6 py-24 text-center">
-          <p className="text-gold text-sm tracking-widest uppercase mb-6">
+        <div className="relative z-10 w-full max-w-4xl mx-auto px-6 py-16 md:py-24 text-center">
+          <p className="text-gold text-sm tracking-widest uppercase mb-4 md:mb-6">
             Professional Event Rider & Educator
           </p>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-semibold text-cream leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-cream leading-tight mb-4 md:mb-6">
             Elevate Your Partnership With Your Horse
           </h1>
           
-          <p className="text-lg text-cream/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg text-cream/80 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed">
             Biomechanics. Mindset. Ethical horsemanship. Join thousands of riders 
             transforming their connection with their horses.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
             <Link 
               href="/courses" 
-              className="inline-flex items-center justify-center gap-2 bg-gold text-charcoal px-8 py-4 font-semibold hover:bg-cream transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-gold text-charcoal px-6 py-3 md:px-8 md:py-4 font-semibold hover:bg-cream transition-colors"
             >
               Explore Courses
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link 
               href="/podcast" 
-              className="inline-flex items-center justify-center gap-2 border border-cream/50 text-cream px-8 py-4 font-medium hover:bg-cream/10 transition-colors"
+              className="inline-flex items-center justify-center gap-2 border border-cream/50 text-cream px-6 py-3 md:px-8 md:py-4 font-medium hover:bg-cream/10 transition-colors"
             >
               <Play className="w-4 h-4" />
               Listen to Podcast
