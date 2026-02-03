@@ -37,36 +37,36 @@ export default function Home() {
         </div>
         
         {/* Main content */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pb-16 pt-32 md:py-24">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12 pb-12 pt-24 md:py-24">
           <div className="max-w-3xl">
             {/* Eyebrow */}
             <div className="animate-fade-up opacity-0 delay-100">
-              <span className="inline-block text-gold text-xs md:text-sm font-medium tracking-[0.2em] uppercase mb-6 md:mb-8">
+              <span className="inline-block text-gold text-xs md:text-sm font-medium tracking-[0.2em] uppercase mb-4 md:mb-8">
                 Professional Event Rider & Educator
               </span>
             </div>
             
-            {/* Main headline - dramatic sizing */}
+            {/* Main headline - tighter on mobile */}
             <h1 className="animate-fade-up opacity-0 delay-200">
-              <span className="block text-cream text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.1] mb-2">
+              <span className="block text-cream text-[2.5rem] sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.05]">
                 Elevate Your
               </span>
-              <span className="block text-cream text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.1]">
+              <span className="block text-cream text-[2.5rem] sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.05]">
                 Partnership
               </span>
-              <span className="block text-gold text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.1] italic">
+              <span className="block text-gold text-[2.5rem] sm:text-5xl md:text-6xl lg:text-7xl font-serif font-semibold leading-[1.05] italic">
                 With Your Horse
               </span>
             </h1>
             
             {/* Subhead */}
-            <p className="animate-fade-up opacity-0 delay-300 text-cream/70 text-base md:text-lg mt-6 md:mt-8 max-w-xl leading-relaxed">
+            <p className="animate-fade-up opacity-0 delay-300 text-cream/70 text-sm md:text-lg mt-4 md:mt-8 max-w-xl leading-relaxed">
               Biomechanics. Mindset. Ethical horsemanship. Join thousands of riders 
               transforming their connection with their horses.
             </p>
             
             {/* CTA buttons */}
-            <div className="animate-fade-up opacity-0 delay-400 flex flex-col sm:flex-row gap-4 mt-8 md:mt-10">
+            <div className="animate-fade-up opacity-0 delay-400 flex flex-col sm:flex-row gap-3 mt-6 md:mt-10">
               <Link 
                 href="/courses" 
                 className="group inline-flex items-center justify-center gap-3 bg-gold text-deep px-8 py-4 font-semibold hover:bg-cream transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-cream focus-visible:ring-offset-2 focus-visible:ring-offset-deep"
