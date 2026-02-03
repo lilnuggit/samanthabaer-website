@@ -124,58 +124,45 @@ export default function PodcastPage() {
         </div>
       </section>
 
-      {/* Featured Episode Spotlight */}
+      {/* Spotify Embedded Player */}
       <section className="py-24 bg-charcoal">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Episode Art */}
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-gold/20 to-charcoal border border-gold/20 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-24 h-24 bg-gold mx-auto mb-6 flex items-center justify-center">
-                    <Volume2 className="w-12 h-12 text-charcoal" />
-                  </div>
-                  <p className="text-gold font-serif text-2xl">Latest Episode</p>
-                </div>
-              </div>
-              {/* Play button overlay */}
-              <a 
-                href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="absolute inset-0 flex items-center justify-center bg-charcoal/0 hover:bg-charcoal/40 transition-colors group"
-              >
-                <div className="w-20 h-20 bg-gold flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Play className="w-10 h-10 text-charcoal ml-1" />
-                </div>
-              </a>
-            </div>
-            
-            {/* Episode Info */}
-            <div>
-              <p className="text-gold font-serif text-lg mb-4 tracking-wider">START LISTENING</p>
-              <h2 className="text-4xl md:text-5xl font-serif text-cream mb-6 leading-tight">
-                New Episodes Every Week
-              </h2>
-              <p className="text-cream/70 text-lg mb-6 leading-relaxed">
-                From Olympic medalists sharing their training secrets to equine veterinarians 
-                breaking down the latest research — every episode is packed with actionable 
-                insights you can apply immediately.
-              </p>
-              <p className="text-cream/70 text-lg mb-8 leading-relaxed">
-                Recent guests include professional event riders, Grand Prix dressage trainers, 
-                sport psychologists, and equine biomechanics researchers.
-              </p>
-              <a 
-                href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gold text-charcoal px-8 py-4 font-medium hover:bg-gold/90 transition-colors"
-              >
-                Browse All Episodes
-                <ArrowRight className="w-4 h-4" />
-              </a>
-            </div>
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <p className="text-gold font-serif text-lg mb-4 tracking-wider">LATEST EPISODES</p>
+            <h2 className="text-4xl md:text-5xl font-serif text-cream mb-6">
+              Start Listening Now
+            </h2>
+            <p className="text-cream/70 text-lg max-w-2xl mx-auto">
+              From Olympic medalists sharing their training secrets to equine veterinarians 
+              breaking down the latest research — every episode is packed with actionable insights.
+            </p>
+          </div>
+          
+          {/* Spotify Embed */}
+          <div className="bg-slate/20 p-4 md:p-6">
+            <iframe 
+              style={{ borderRadius: '12px' }}
+              src="https://open.spotify.com/embed/show/6TlXq9jVia6jQYFGbKBsmm?utm_source=generator&theme=0"
+              width="100%" 
+              height="352" 
+              frameBorder="0" 
+              allowFullScreen
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+              loading="lazy"
+              title="The Elevated Equestrian Podcast"
+            />
+          </div>
+          
+          <div className="text-center mt-8">
+            <a 
+              href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-gold font-medium hover:gap-3 transition-all"
+            >
+              View All Episodes on Spotify
+              <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
         </div>
       </section>
