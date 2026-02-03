@@ -56,7 +56,7 @@ export default function PodcastPage() {
           {/* Primary CTA - Spotify */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <a 
-              href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2"
+              href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 bg-[#1DB954] text-white px-10 py-5 font-medium text-lg hover:bg-[#1ed760] transition-all hover:scale-105"
@@ -140,7 +140,7 @@ export default function PodcastPage() {
               </div>
               {/* Play button overlay */}
               <a 
-                href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2"
+                href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="absolute inset-0 flex items-center justify-center bg-charcoal/0 hover:bg-charcoal/40 transition-colors group"
@@ -167,7 +167,7 @@ export default function PodcastPage() {
                 sport psychologists, and equine biomechanics researchers.
               </p>
               <a 
-                href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2"
+                href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-gold text-charcoal px-8 py-4 font-medium hover:bg-gold/90 transition-colors"
@@ -244,7 +244,7 @@ export default function PodcastPage() {
           {/* Platform Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <a 
-              href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2"
+              href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#1DB954] text-white px-8 py-4 font-medium hover:bg-[#1ed760] transition-colors"
@@ -340,7 +340,7 @@ export default function PodcastPage() {
             Hit subscribe and join thousands of riders committed to continuous improvement.
           </p>
           <a 
-            href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2"
+            href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-gold text-charcoal px-10 py-5 font-medium text-lg hover:bg-gold/90 transition-colors"

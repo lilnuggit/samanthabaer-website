@@ -24,7 +24,7 @@ export default function Footer() {
                 Instagram
               </a>
               <a 
-                href="https://open.spotify.com/show/0Z442fy1TDKF0FZPXsVst2" 
+                href="https://open.spotify.com/show/6TlXq9jVia6jQYFGbKBsmm" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-cream/60 hover:text-gold transition-colors text-sm"
